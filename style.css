@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 8px 36px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    background: #3882F6;
+    color:#F9FAF8;
+}
+
+button.top-sign-up {
+    border: 3px solid #3882F6;
+  }
+
+button.bottom-sign-up {
+    border: 3px solid #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.header, 
+.top-info {
+    display: flex;
+    background: #1F2937;
+    padding: 20px 160px;
+    justify-content: space-between;
+}
+
+.top-info {
+    gap: 70px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    align-items: flex-start
+}
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-image {
+    display: flex;
+    flex: 1 1 0px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background: #6d747e;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: min-content;
+    color: #6f7377;
+}
+
+.frame {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    border: 4px solid #3882F6;
+    margin-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    padding: 80px 220px;
+}
+
+.author {
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    padding: 50px 100px;
+    margin: 80px 200px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.message-tittle {
+    font-size: 16px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.message-text {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #1F2937;
+    color: #F9FAF8;
+}
